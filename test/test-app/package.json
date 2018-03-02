@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-ex",
+  "version": "0.1.0",
+  "description": "Small NodeJS server to test use of Openshift source-to-image capability found in elementsweb/s2i-nodejs-container",
+  "main": "server.js",
+  "scripts": {
+    "start": "node $npm_package_main",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elementsweb/nodejs-ex.git"
+  },
+  "keywords": [
+    "nodejs",
+    "openshift",
+    "s2i"
+  ],
+  "author": "elementsweb",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elementsweb/nodejs-ex/issues"
+  },
+  "homepage": "https://github.com/elementsweb/nodejs-ex#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
