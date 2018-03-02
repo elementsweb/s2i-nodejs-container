@@ -1,4 +1,4 @@
-IMAGE_NAME = s2i-nodejs
+IMAGE_NAME = s2i-nodejs-container
 
 .PHONY: build
 build:
