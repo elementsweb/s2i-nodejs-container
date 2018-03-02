@@ -1,6 +1,8 @@
 # s2i-nodejs
 FROM centos/s2i-base-centos7
 
+EXPOSE 8080
+
 # TODO: Put the maintainer name in the image metadata
 LABEL maintainer="elementsweb"
 
@@ -43,9 +45,6 @@ RUN chown -R 1001:0 /opt/app-root
 
 # This default user is created in the openshift/base-centos7 image
 USER 1001
-
-# TODO: Set the default port for applications built using this image
-EXPOSE 8080
 
 # TODO: Set the default CMD for the image
 CMD ["/usr/libexec/s2i/usage"]
