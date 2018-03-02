@@ -1,6 +1,6 @@
 #!/bin/bash -e
 #
-# S2I assemble script for the 's2i-nodejs' image.
+# S2I assemble script for the 's2i-nodejs-container' image.
 # The 'assemble' script builds your application source so that it is ready to run.
 #
 # For more information refer to the documentation:

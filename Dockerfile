@@ -1,4 +1,4 @@
-# s2i-nodejs
+# s2i-nodejs-container
 FROM centos/s2i-base-centos7
 
 EXPOSE 8080
